@@ -11,7 +11,7 @@
         <!-- Fontawesome CDN Link -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
          <!-- Ajax Script -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="welcome-con" id="welcome-main">
@@ -70,6 +70,8 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
                 <span class="dot" onclick="currentSlide(4)"></span>
                 <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
               </div>
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
@@ -89,7 +91,7 @@
                     </div>                
                     <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to pastry businesses, shops or stores, such as bakeries and coffee shops
                     </p>
-                    <a href="#"><button class="btn-theme">View Design</button></a>
+                    <a href="CoffeeShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
                 </div>
               </div>
             </div>
@@ -113,7 +115,7 @@
                         and photography, such as tattoo shops, 
                         photo studios, art galleries, and museums.
                       </p>
-                      <a href="#"><button class="btn-theme">View Design</button></a>
+                      <a href="TattooShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
                   </div>
                 </div>
               </div>
@@ -135,7 +137,7 @@
                       </div>                
                       <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to the food industry, such as restaurants and cafeterias.
                       </p>
-                      <a href="#"><button class="btn-theme">View Design</button></a>
+                      <a href="RestaurantShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
                   </div>
                 </div>
               </div>
@@ -157,7 +159,7 @@
                       </div>                
                       <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to the fashion industry, such as shoe or sneaker stores.
                       </p>
-                      <a href="#"><button class="btn-theme">View Design</button></a>
+                      <a href="ShoeShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
                   </div>
                 </div>
               </div>
@@ -181,7 +183,7 @@
                       </div>                
                       <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to small food industry, such as Pizzateria and milk tea shops.
                       </p>
-                      <a href="#"><button class="btn-theme">View Design</button></a>
+                      <a href="PizzaShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
                   </div>
                 </div>
               </div>
@@ -203,7 +205,7 @@
                       </div>                
                       <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to the cosmetics industry, such as salons and makeup stores.
                       </p>
-                      <a href="#"><button class="btn-theme">View Design</button></a>
+                      <a href="#" style="pointer-events: none"><button class="btn-theme" style="background-color: #8fdbaa">Comming Soon</button></a>
                   </div>
                 </div>
               </div>
@@ -215,7 +217,7 @@
                   </div>
                   <div class="theme-desc-con">
                       <h1 class="theme-heading">Gadgets Store</h1>
-                      <p class="theme-subheading">Comming Soon</p> 
+                      <p class="theme-subheading">THEME 7</p> 
                       <p class="style">style: modern look</p>
                       <div class="color-theme-8">
                           <p>color: </p>
@@ -225,7 +227,7 @@
                       </div>                
                       <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to the Electronic industry, such as Gadgets and Accessories stores.
                       </p>
-                      <a href="#"><button class="btn-theme">View Design</button></a>
+                      <a href="#" style="pointer-events: none"><button class="btn-theme" style="background-color: #8fdbaa">Comming Soon</button></a>
                   </div>
                 </div>
               </div>
