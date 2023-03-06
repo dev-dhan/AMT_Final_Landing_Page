@@ -4,6 +4,7 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/AMT19.PNG">
         <!-- Custom CSS -->
         <link href="style/style.css" rel="stylesheet">
         <!-- Responsive CSS -->

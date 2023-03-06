@@ -4,6 +4,7 @@
         <title>ADSvanced Media Tech</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="images/AMT19.PNG">
         <link href="css/style.css" rel="stylesheet">
         <link rel="stylesheet" href="css/animation.css">
         <!-- Responsive CSS -->
@@ -53,9 +54,8 @@
             <!-- About us starts here -->
         <section class="about-us-con" id="about-us-con">
             <div class="about-video-con">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/szkuWIszA_I?rel=0" title="YouTube video player" frameborder="0"
-                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qhYf8kO9NAk?rel=0" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div class="about-desc-con">
                 <p class="all-parag-subheading">Click the video to know more about our services</p>
                 <p class="all-parag">We  are the  go to place of small Business owners to Manage their work, Build  a strong identity,
