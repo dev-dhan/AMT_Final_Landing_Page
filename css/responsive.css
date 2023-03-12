@@ -11,26 +11,29 @@
     .services-main-con {
         height: 80vh;
     }
+
     .panel {
         height: 80vh;
     }
+
     .panel .service-icon {
         left: 320px;
         width: 200px;
         top: 280px;
     }
-    .panel.active .service-icon{
+
+    .panel.active .service-icon {
         width: 280px;
         transition: opacity 0.3s ease-in 0.4;
         left: 270px;
         top: 220px;
-      }
+    }
 
-      .panel.active h3 {
+    .panel.active h3 {
         font-size: 45px;
         bottom: 100px;
     }
-      
+
 }
 
 @media only screen and (max-width: 1650px) {
@@ -44,17 +47,21 @@
     .services-main-con {
         height: 80vh;
     }
+
     .panel {
         height: 80vh;
     }
+
     .panel .service-icon {
         left: 270px;
     }
-    .panel.active .service-icon{
+
+    .panel.active .service-icon {
         transition: opacity 0.3s ease-in 0.4;
         left: 250px;
         top: 220px;
-      }
+    }
+
     .panel.active h3 {
         font-size: 45px;
         bottom: 100px;
@@ -65,6 +72,7 @@
     .services-main-con {
         height: 60vh;
     }
+
     .panel {
         height: 60vh;
     }
@@ -85,13 +93,14 @@
         font-size: 35px;
         bottom: 100px;
     }
-    
+
 }
 
 @media only screen and (max-width: 1110px) {
     .services-main-con {
         height: 55vh;
     }
+
     .panel {
         height: 55vh;
     }
@@ -109,14 +118,14 @@
     }
 
 }
- 
+
 @media only screen and (max-width: 1490px) {
-    .team img{
+    .team img {
         width: 230px;
         height: 260px;
         margin-bottom: 20px;
     }
-    
+
 }
 
 
@@ -145,6 +154,7 @@
     .include-con {
         width: 100%;
     }
+
     .plan .include {
         font-size: 18px;
     }
@@ -154,9 +164,10 @@
 
 @media only screen and (max-width: 1410px) {
 
-    .welcome-desc-con{
+    .welcome-desc-con {
         width: 50%;
     }
+
     .heading {
         font-size: 40px;
     }
@@ -171,7 +182,7 @@
         height: 600px;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 1250px) {
@@ -192,7 +203,8 @@
     .contact-us-con {
         width: 100%;
     }
-    .footer img{
+
+    .footer img {
         width: 40px;
         height: 30px;
     }
@@ -209,7 +221,8 @@
     .contact-us-con .contact-us p {
         font-size: 14px;
     }
-       .location img {
+
+    .location img {
         height: 35px;
         width: 30px;
     }
@@ -220,7 +233,7 @@
 }
 
 @media only screen and (max-width: 1210px) {
-    .team img{
+    .team img {
         width: 180px;
         height: 200px;
         margin-bottom: 20px;
@@ -237,10 +250,10 @@
     .plan h3 {
         font-size: 25px;
     }
-    
+
     .plan .include {
         font-size: 16px;
-      }
+    }
 
     .our-plans-pricing-con .all-heading {
         margin-bottom: 100px;
@@ -250,7 +263,7 @@
         margin-top: -140px;
         height: 180px;
         width: 180px;
-      }
+    }
 }
 
 @media only screen and (max-width: 1040px) {
@@ -261,10 +274,10 @@
     .plan h3 {
         font-size: 20px;
     }
-    
+
     .plan .include {
         font-size: 14px;
-      }
+    }
 
     .our-plans-pricing-con .all-heading {
         margin-bottom: 100px;
@@ -274,7 +287,7 @@
         margin-top: -140px;
         height: 180px;
         width: 180px;
-      }
+    }
 }
 
 
@@ -289,9 +302,11 @@
         justify-content: space-between;
         width: 100%;
     }
+
     header {
         padding: 25px 50px;
     }
+
     .welcome-con {
         height: 650px;
     }
@@ -300,12 +315,14 @@
         cursor: pointer;
         display: block;
     }
+
     .hamburger .line {
         width: 30px;
         height: 3px;
         background-color: var(--secondary-color);
         margin-bottom: 5px;
     }
+
     .nav-bar.active {
         height: 300px;
     }
@@ -320,7 +337,7 @@
         top: 130px;
         right: 0;
         left: 0;
-        background-color:rgb(48, 218, 105);
+        background-color: rgb(48, 218, 105);
         width: 100vw;
         transition: ease-in .7s;
         overflow: hidden;
@@ -348,6 +365,7 @@
         padding: 50px;
         height: auto;
     }
+
     .welcome-con {
         height: 100%;
     }
@@ -374,6 +392,7 @@
         width: 83%;
         height: 600px
     }
+
     .person-main-img #person {
         height: 400px;
     }
@@ -415,11 +434,11 @@
     .dot {
         width: 75px;
     }
-    
+
     .theme-desc-con {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .theme-desc-con .theme-subheading {
@@ -438,10 +457,10 @@
     .website-benefits {
         padding: 50px;
     }
-    
+
     .benefits-con {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
         row-gap: 30px;
         text-align: center;
@@ -461,13 +480,13 @@
         height: auto;
     }
 
-    .email-us-con img{
+    .email-us-con img {
         width: 350px;
         height: 300px;
         margin-left: auto;
     }
 
-    .email-person-img img{
+    .email-person-img img {
         height: 300px;
         width: 300px;
         margin-right: auto;
@@ -490,21 +509,23 @@
     .form-con {
         width: 100%;
     }
+
     .teams {
         padding: 50px;
     }
-    .team-container{
+
+    .team-container {
         display: flex;
         flex-direction: column;
-     }
+    }
 
-     .team img{
+    .team img {
         width: 230px;
         height: 250px;
         margin-bottom: 20px;
     }
 
-     .team {
+    .team {
         padding: 25px;
     }
 
@@ -512,7 +533,7 @@
         height: 35vh;
     }
 
-    
+
     .panel {
         height: 35vh;
     }
@@ -532,71 +553,72 @@
     .slideshow-container2 {
         padding: 50px 0px;
     }
-    
+
     .panel.active h3 {
         font-size: 25px;
         bottom: 20px;
     }
 
-    
 
-      .dots {
+
+    .dots {
         width: 100%;
         display: flex;
         padding: 0;
         justify-content: center;
-      }
+    }
 
-      .our-plans-pricing-con .all-heading {
+    .our-plans-pricing-con .all-heading {
         margin-bottom: 30px;
-      }
+    }
 
-      .plans {
-       display: grid;
-       grid-template-columns: repeat(3,1fr);
-       column-gap: 10px;
-      }
-    
-      .plan {
+    .plans {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+    }
+
+    .plan {
         margin-right: 10px;
 
-      }
+    }
 
-      .include-con {
+    .include-con {
         width: 100%;
-      }
+    }
 
-      .our-plans-pricing-con {
+    .our-plans-pricing-con {
         padding: 50px;
-      }
+    }
 
-    
-      .plan h3 {
+
+    .plan h3 {
         font-size: 20px;
-      }
-    
-      .plan img {
+    }
+
+    .plan img {
         height: 115px;
         width: 110px;
         margin-top: -90px;
-      }
-    
-      .plan .include {
+    }
+
+    .plan .include {
         font-size: 14px;
         font-weight: 400;
         color: var(--secondary-color);
-      }
+    }
 
-      .footer {
+    .footer {
         padding: 50px;
     }
 
     .footer .all-heading {
         font-size: 45px;
     }
+
     .contact-us-con {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
         width: 100%;
         margin: auto;
@@ -616,20 +638,20 @@
     .footer img {
         margin-top: 30px;
     }
-    
-        
+
+
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px) {
     header {
         padding: 15px 15px;
     }
-    
+
     .welcome-main {
         padding: 50px 15px;
         height: 100%;
     }
-    
+
     .welcome-desc-con {
         width: 100%;
     }
@@ -637,10 +659,12 @@
     .heading {
         margin-bottom: 20px;
     }
+
     .parag {
         margin-bottom: 0px;
         width: 100%;
     }
+
     .welcome-main .img-container {
         height: 100%;
     }
@@ -654,6 +678,7 @@
         width: 100%;
         height: 400px;
     }
+
     .person-main-img #person {
         height: 300px;
         width: 150px;
@@ -672,6 +697,7 @@
     .all-parag-subheading {
         font-size: 20px;
     }
+
     .all-parag {
         font-size: 16px;
     }
@@ -700,8 +726,9 @@
         font-size: 25px;
     }
 
-    .prev, .next {
-       opacity: .4;
+    .prev,
+    .next {
+        opacity: .4;
     }
 
     .dot {
@@ -720,10 +747,10 @@
     .website-benefits {
         padding: 50px 15px;
     }
-    
+
     .benefits-con {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         column-gap: 30px;
         row-gap: 30px;
         text-align: center;
@@ -733,7 +760,7 @@
         padding: 15px;
     }
 
-    .email-us-con  {
+    .email-us-con {
         padding: 50px 15px;
     }
 
@@ -748,19 +775,19 @@
         padding: 15px 20px;
         width: 100%;
     }
-    
+
     form #email {
         height: 55px;
         padding: 15px 20px;
         width: 100%;
     }
-    
+
     form #message {
         max-height: 200px;
         padding: 15px 20px;
         width: 100%;
     }
-    
+
     form #submit {
         height: 55px;
         width: 100%;
@@ -769,19 +796,21 @@
     .teams {
         padding: 50px 15px;
     }
-    .team-container{
+
+    .team-container {
         display: grid;
         flex-direction: column;
-     }
+    }
 
-     .team-set-1, .team-set-2 {
+    .team-set-1,
+    .team-set-2 {
         flex-direction: column;
-     }
+    }
 
-     .team img {
+    .team img {
         width: 280px;
         height: 310px;
-     }
+    }
 
     .service {
         padding: 50px 15px;
@@ -789,141 +818,146 @@
 
     .service-img-con {
         width: 100%;
-        height:350px;
-      }
+        height: 350px;
+    }
 
-      .prev2, .next2 {
+    .prev2,
+    .next2 {
         opacity: .4;
-     }
+    }
 
-     .dot2 {
+    .dot2 {
         margin: 5px;
-      }
-      .our-plans-pricing-con {
+    }
+
+    .our-plans-pricing-con {
         padding: 50px 15px;
-      }
-      .plans {
+    }
+
+    .plans {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
 
-       }
-     
-       .plan {
-         padding: 30px 30px;
-         margin-right: 0px;
-         margin-bottom: 30px;
-         margin: 0px auto 150px auto;
- 
-        }
+    }
 
-        .our-plans-pricing-con .all-heading {
-            margin-bottom: 150px;
-        }
+    .plan {
+        padding: 30px 30px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+        margin: 0px auto 150px auto;
 
-        .plan h3 {
-            font-size: 30px;
-        }
-        
-        .plan .include {
-            font-size: 20px;
-        }
+    }
 
-        .plan img {
-            margin-top: -140px;
-            height: 180px;
-            width: 180px;
-        }
+    .our-plans-pricing-con .all-heading {
+        margin-bottom: 150px;
+    }
 
-        .footer {
-            padding: 20px 15px;
-        }
+    .plan h3 {
+        font-size: 30px;
+    }
 
-        .footer .img-con {
-            margin-right: 10px;
-        }
-        .contact-us-con {
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            width: 100%;
-            padding: 0px;
-            column-gap: 15px;
-            row-gap: 0;
-        }
-        
-        .footer img {
-            height: 20px;
-            width: 22px;
-        }
+    .plan .include {
+        font-size: 20px;
+    }
 
-        .location img {
-            width: 20px;
-        }
-        .footer .all-heading {
-            text-align: center;
-            font-size: 32px;
-            font-weight: 800;
-            color: var(--secondary-color);
-            margin-bottom: 0px;
-        }
+    .plan img {
+        margin-top: -140px;
+        height: 180px;
+        width: 180px;
+    }
 
-        .contact-us-con .contact-us p {
-            font-size: 12px;
-        }
+    .footer {
+        padding: 20px 15px;
+    }
 
-        #topBtn{
+    .footer .img-con {
+        margin-right: 10px;
+    }
+
+    .contact-us-con {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        padding: 0px;
+        column-gap: 15px;
+        row-gap: 0;
+    }
+
+    .footer img {
+        height: 20px;
+        width: 22px;
+    }
+
+    .location img {
+        width: 20px;
+    }
+
+    .footer .all-heading {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 800;
+        color: var(--secondary-color);
+        margin-bottom: 0px;
+    }
+
+    .contact-us-con .contact-us p {
+        font-size: 12px;
+    }
+
+    #topBtn {
         position: fixed;
         bottom: 20px;
         right: 10px;
         opacity: .9;
-        }    
+    }
 
-        .services-main-con {
-            height: 50vh;
-        }
-    
-        
-        .panel {
-            height: 50vh;
-        }
-    
-        .panel .service-icon {
-            width: 90px;
-            left: 40px;
-            top: 120px;
-        }
-    
-        .panel.active .service-icon {
-            top: 120px;
-            width: 100px;
-            left: 50px;
-        }
-    
-        .slideshow-container2 {
-            padding: 50px 0px;
-        }
+    .services-main-con {
+        height: 50vh;
+    }
 
-        .panel h3 {
-            font-size: 16px;
-        }
-        
-        .panel.active h3 {
-            font-size: 18px;
-            bottom: 45px;
-        }
-    
+
+    .panel {
+        height: 50vh;
+    }
+
+    .panel .service-icon {
+        width: 90px;
+        left: 40px;
+        top: 120px;
+    }
+
+    .panel.active .service-icon {
+        top: 120px;
+        width: 100px;
+        left: 50px;
+    }
+
+    .slideshow-container2 {
+        padding: 50px 0px;
+    }
+
+    .panel h3 {
+        font-size: 16px;
+    }
+
+    .panel.active h3 {
+        font-size: 18px;
+        bottom: 45px;
+    }
+
 }
 
 /*Services Media */
 
 
 
-@media(max-width:480px){
+@media(max-width:480px) {
     .container {
         width: 100vw;
     }
 
     .panel:nth-of-type(4),
-    .panel:nth-of-type(5){
+    .panel:nth-of-type(5) {
         display: none;
     }
 }
