@@ -5,13 +5,13 @@ $email;
 $message;
 
 if (isset($_POST['fullname'])) {
-        $name = $_POST['fullname'];
+    $name = $_POST['fullname'];
 }
 if (isset($_POST['email'])) {
-        $email = $_POST['email'];
+    $email = $_POST['email'];
 }
 if (isset($_POST['message'])) {
-        $message = $_POST['message'];
+    $message = $_POST['message'];
 }
 
 

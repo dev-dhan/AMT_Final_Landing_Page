@@ -69,7 +69,7 @@
 	}
 
 	25% {
-		transform:rotate(5deg);
+		transform: rotate(5deg);
 	}
 
 	50% {
@@ -127,9 +127,8 @@
 }
 
 #person,
-.email-icon-img
-{
-animation: float-person 4s ease-in-out infinite;
+.email-icon-img {
+	animation: float-person 4s ease-in-out infinite;
 }
 
 .service-icon {

@@ -59,11 +59,11 @@
         <div class="about-video-con">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qhYf8kO9NAk?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-            <div class="about-desc-con">
-                <p class="all-parag-subheading">Click the video to know more about our services</p>
-                <p class="all-parag">We are the go to place of small Business owners to Manage their work, Build a strong identity,
-                    attractive website, and captivate clients through social media and digital marketing.</p>
-            </div>
+        <div class="about-desc-con">
+            <p class="all-parag-subheading">Click the video to know more about our services</p>
+            <p class="all-parag">We are the go to place of small Business owners to Manage their work, Build a strong identity,
+                attractive website, and captivate clients through social media and digital marketing.</p>
+        </div>
     </section>
     <!-- Themes selection starts here -->
     <section class="slideshow-container" id="slideshow-container">
