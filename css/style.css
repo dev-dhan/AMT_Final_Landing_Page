@@ -14,6 +14,10 @@
     --padding: 60px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*Go Up Button CSS*/
 
 #topBtn {
