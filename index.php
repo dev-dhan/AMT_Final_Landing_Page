@@ -94,7 +94,10 @@
                     </div>
                     <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to pastry businesses, shops or stores, such as bakeries and coffee shops
                     </p>
-                    <a href="CoffeeShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
+                    <div class="btn-container ">
+                        <a href="CoffeeShop.com/" target="_blank"><button class="btn-theme btn-theme-top">View Website</button></a>
+                        <a href="https://www.figma.com/file/szRcWbqpeVy7qqshBZLLub/Theme-1?node-id=85%3A2&t=GPsagiJ5T1uPtopJ-0" target="_blank"><button class="btn-theme btn-theme-bottom">View Design</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -118,7 +121,10 @@
                         and photography, such as tattoo shops,
                         photo studios, art galleries, and museums.
                     </p>
-                    <a href="TattooShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
+                    <div class="btn-container ">
+                        <a href="TattooShop.com/" target="_blank"><button class="btn-theme btn-theme-top">View Website</button></a>
+                        <a href="https://www.figma.com/file/UuGgIWOOa5SS3Ipetlhso8/Theme-2?node-id=5%3A10&t=KO041MTZkEElg979-0" target="_blank"><button class="btn-theme btn-theme-bottom">View Design</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,7 +146,10 @@
                     </div>
                     <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to the food industry, such as restaurants and cafeterias.
                     </p>
-                    <a href="RestaurantShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
+                    <div class="btn-container ">
+                        <a href="RestaurantShop.com/" target="_blank"><button class="btn-theme btn-theme-top">View Website</button></a>
+                        <a href="https://www.figma.com/file/xyQ61O2XMDLIV977cHFpCX/THEME-3?node-id=2%3A3&t=Q6dkk0w6xOynXGsu-0" target="_blank"><button class="btn-theme btn-theme-bottom">View Design</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -162,7 +171,10 @@
                     </div>
                     <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to the fashion industry, such as shoe or sneaker stores.
                     </p>
-                    <a href="ShoeShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
+                    <div class="btn-container ">
+                        <a href="ShoeShop.com/" target="_blank"><button class="btn-theme btn-theme-top">View Website</button></a>
+                        <a href="https://www.figma.com/file/UXayFv9RCeYcusVPktunRa/Theme-4-Shoe-Theme?node-id=0%3A1&t=gJeIgVpNdbl9GNya-0" target="_blank"><button class="btn-theme btn-theme-bottom">View Design</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,7 +198,10 @@
                     </div>
                     <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to small food industry, such as Pizzateria and milk tea shops.
                     </p>
-                    <a href="PizzaShop.com/" target="_blank"><button class="btn-theme">View Design</button></a>
+                    <div class="btn-container ">
+                        <a href="PizzaShop.com/" target="_blank"><button class="btn-theme btn-theme-top">View Website</button></a>
+                        <a href="https://www.figma.com/file/2alEIbBYulu7Be5uz80NCi/Theme-5?node-id=0%3A1&t=dVQ1m9aqpKNxZi6A-0" target="_blank"><button class="btn-theme btn-theme-bottom">View Design</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -208,7 +223,10 @@
                     </div>
                     <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to the cosmetics industry, such as salons and makeup stores.
                     </p>
-                    <a href="#" style="pointer-events: none"><button class="btn-theme" style="background-color: #8fdbaa">Comming Soon</button></a>
+                    <div class="btn-container ">
+                        <a href="#" style="pointer-events: none"><button class="btn-theme" style="background-color: #8fdbaa">Comming Soon</button></a>
+                        <a href="https://www.figma.com/file/ND52n7YTDuF7UjrwPgpN2z/Theme-6?node-id=0%3A1&t=z7wNiFPHnTYYlPcj-0" target="_blank"><button class="btn-theme btn-theme-bottom">View Design</button></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -230,7 +248,9 @@
                     </div>
                     <p class="theme-content">This website template is suitable for businesses, stores, or shops that are related to the Electronic industry, such as Gadgets and Accessories stores.
                     </p>
-                    <a href="#" style="pointer-events: none"><button class="btn-theme" style="background-color: #8fdbaa">Comming Soon</button></a>
+                    <div class="btn-container ">
+                        <a href="#" style="pointer-events: none"><button class="btn-theme" style="background-color: #8fdbaa">Comming Soon</button></a>
+                    </div>
                 </div>
             </div>
         </div>
