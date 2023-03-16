@@ -394,7 +394,7 @@
 
                 <div class="team">
                     <img src="images/team-2.png" alt="Team Member">
-                    <p class="name">JP</p>
+                    <p class="name">John</p>
                     <p class="role">Full stack Developer</p>
                 </div>
             </div>
