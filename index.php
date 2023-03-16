@@ -451,7 +451,7 @@
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
-                    <p class="include">10x maximum revisions (replenish every month)</p>
+                    <p class="include">5x maximum revisions (replenish every month)</p>
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
@@ -463,9 +463,17 @@
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
-                    <p class="include">Include: Social Media Promotion (Optional)</p>
+                    <p class="include">Include: Business Promotion through Social Media (Optional)</p>
                 </div>
-
+                
+                <div class="include-con"><i class="fa-solid fa-check"></i>
+                    <p class="include">Include: Facebook Boosting (Optional)</p>
+                </div>
+                
+                <div class="include-con"><i class="fa-solid fa-xmark"></i>
+                    <p class="include">FREE: Business or Social Media Poster</p>
+                </div>
+                
                 <div class="include-con"><i class="fa-solid fa-xmark"></i>
                     <p class="include">Chat Feature</p>
                 </div>
@@ -490,7 +498,7 @@
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
-                    <p class="include">10x maximum revisions (replenish every month)</p>
+                    <p class="include">12x maximum revisions (replenish every month)</p>
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
@@ -502,7 +510,15 @@
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
-                    <p class="include">Include: Social Media Promotion (Optional)</p>
+                    <p class="include">Include: Business Promotion through Social Media (Optional)</p>
+                </div>
+                
+                <div class="include-con"><i class="fa-solid fa-check"></i>
+                    <p class="include">Include: Facebook Boosting (Optional)</p>
+                </div>
+                
+                <div class="include-con"><i class="fa-solid fa-check"></i>
+                    <p class="include">FREE: Business or Social Media Poster</p>
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
@@ -513,7 +529,7 @@
                     <p class="include">Email Feature</p>
                 </div>
                 <div class="price-con">
-                    <p>299 PHP/mo</p>
+                    <p>349 PHP/mo</p>
                 </div>
             </div>
 
@@ -529,7 +545,7 @@
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
-                    <p class="include">10x maximum revisions (replenish every month)</p>
+                    <p class="include">20x maximum revisions (replenish every month)</p>
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
@@ -541,7 +557,15 @@
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
-                    <p class="include">Include: Social Media Promotion (Optional)</p>
+                    <p class="include">Include: Business Promotion through Social Media (Optional)</p>
+                </div>
+                
+                <div class="include-con"><i class="fa-solid fa-check"></i>
+                    <p class="include">Include: Facebook Boosting (Optional)</p>
+                </div>
+                
+                <div class="include-con"><i class="fa-solid fa-check"></i>
+                    <p class="include">FREE: Business or Social Media Poster</p>
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
@@ -552,7 +576,7 @@
                     <p class="include">Email Feature</p>
                 </div>
                 <div class="price-con">
-                    <p>399 PHP/mo</p>
+                    <p>449 PHP/mo</p>
                 </div>
             </div>
         </div>
