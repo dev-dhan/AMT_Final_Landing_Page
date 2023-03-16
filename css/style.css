@@ -38,7 +38,8 @@ html {
 }
 
 .welcome-con {
-    background-image: url("../images/welcome-background.jpg");
+    background: rgb(249,253,252);
+    background: linear-gradient(90deg, rgba(249,253,252,1) 0%, rgba(101,228,125,1) 60%);
     height: 100%;
     background-size: cover;
 
@@ -805,7 +806,8 @@ form #submit {
 .teams {
     padding: var(--padding);
     font-family: var(--font-style);
-    background-image: url("../images/team-background.jpg");
+    background: rgb(249,253,252);
+    background: linear-gradient(90deg, rgba(249,253,252,1) 0%, rgba(101,228,125,1) 60%);
     background-size: cover;
 }
 
