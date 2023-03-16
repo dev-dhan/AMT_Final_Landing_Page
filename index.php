@@ -388,13 +388,13 @@
             <div class="team-set-1">
                 <div class="team">
                     <img src="images/team-1.png" alt="Team Member">
-                    <p class="name">Roldhan Fulo</p>
+                    <p class="name">dhan</p>
                     <p class="role">Front end Developer</p>
                 </div>
 
                 <div class="team">
                     <img src="images/team-2.png" alt="Team Member">
-                    <p class="name">John Paul Narvasa</p>
+                    <p class="name">JP</p>
                     <p class="role">Full stack Developer</p>
                 </div>
             </div>
@@ -402,13 +402,13 @@
             <div class="team-set-2">
                 <div class="team">
                     <img src="images/team-3.png" alt="Team Member">
-                    <p class="name">Dandrev Barrio</p>
+                    <p class="name">Drevs</p>
                     <p class="role">Back end Developer</p>
                 </div>
 
                 <div class="team">
                     <img src="images/team-4.png" alt="Team Member">
-                    <p class="name">Analyn Ampo</p>
+                    <p class="name">Ana</p>
                     <p class="role">UI/UX Designer</p>
                 </div>
             </div>
