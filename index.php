@@ -451,7 +451,7 @@
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
-                    <p class="include">10x maximum revisions (replenish every month)</p>
+                    <p class="include">5x maximum revisions (replenish every month)</p>
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
@@ -498,7 +498,7 @@
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
-                    <p class="include">10x maximum revisions (replenish every month)</p>
+                    <p class="include">12x maximum revisions (replenish every month)</p>
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
@@ -545,7 +545,7 @@
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
-                    <p class="include">10x maximum revisions (replenish every month)</p>
+                    <p class="include">20x maximum revisions (replenish every month)</p>
                 </div>
 
                 <div class="include-con"><i class="fa-solid fa-check"></i>
