@@ -1,0 +1,778 @@
+/*Navbar Page CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --primary-color : #A5DA37;
+    --secondary-color: #BFE248;
+    --tertiary-color: #181818;
+    --additional-color : #FFFFFF;
+    --padding: 60px;
+    --regular: 'Roboto', sans-serif;
+    --font-color : #181818;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+header { 
+    font-family: var(--regular);
+    padding: 10px 60px 5px 60px;
+    background-color: var(--primary-color);
+}
+
+.hamburger {
+    display: none;
+}
+.nav-logo img{ 
+    width: 150px;
+}
+
+.container-fluid { 
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.nav-links { 
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+    font-size: 16px;
+    z-index: 999;
+    column-gap: 30px;
+    
+}
+
+.nav-links ul {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 15px;
+    
+    
+}
+
+.nav-button  a{ 
+    background-color: var(--tertiary-color);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: var(--additional-color);
+    font-size: 14px;
+   
+}
+.nav-button  a:hover {
+    background-color: #383535;
+    color: var(--additional-color);
+    border: none;
+    transition: ease-in-out 0.4s;
+}
+.nav-links ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+.nav-links li a{
+text-decoration: none;    
+color: var(--tertiary-color);
+
+}
+.nav-links li a:hover{
+    color: var(--additional-color);
+    transition: ease-in-out .5s;
+}
+
+/*Go Up Button CSS*/
+#topBtn{
+  position: fixed;
+  bottom: 40px;
+  right: 28px;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  background: var(--tertiary-color);
+  color: var(--additional-color);
+  border: none;
+  cursor: pointer;
+  display: none;
+  border-radius: 100px;
+  z-index: 999;
+  
+}
+
+/*Main page CSS */
+
+/* Slideshow container */
+.main-page-con {
+    padding: 0;
+    height: auto;
+}
+.slideshow-container {
+    max-width: 100vw;
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides img {
+    max-height: 89vh;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: var(--tertiary-color);
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: #383535;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+
+  /*About Us CSS*/
+  .about-us-con {
+    font-family: var(--regular);
+    padding: var(--padding);
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    border: 10px solid var(--additional-color);
+    color: var(--additional-color);
+    padding: 20px 20px;
+    margin: 0px auto 50px auto;
+    font-size:50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: auto;
+  }
+
+  .heading h1 {
+    text-align: center;
+    /* border-bottom: 10px solid var(--tertiary-color); */
+    /* border-top: 10px solid var(--tertiary-color); */
+    background-color: var(--additional-color);
+    color: var(--primary-color);
+    padding: 0px 20px;
+  }
+
+  .content-con-about-us {
+    display: flex;
+    justify-content: space-between;
+  }
+  .story-con {
+    width: 48%;
+    text-align: justify;
+  }
+
+  .story-con h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+  }
+  .story-con p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .vid-con {
+    width: 48%;
+    height: 600px;
+  }
+
+  
+  /*Feature Shoes CSS*/
+  
+.feature-shoes-main-con {
+font-family: var(--regular);
+padding: 50px 0;
+display: flex;
+flex-direction: column;
+}
+
+.feature-shoes-main-con .heading {
+  border: 10px solid var(--primary-color);
+  color: var(--additional-color);
+  padding: 20px 20px;
+  margin: 0px auto;
+  font-size:50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.feature-shoes-main-con  .heading h1 {
+  text-align: center;
+  /* border-bottom: 10px solid var(--tertiary-color); */
+  /* border-top: 10px solid var(--tertiary-color); */
+  background-color: var(--primary-color);
+  color: var(--additional-color);
+  padding: 0px 20px;
+}
+
+.feature-shoes-main-con  .shoes-feature-con {
+  display: flex;
+  justify-content: center;
+}
+
+.shoes-feature-con .all-heading {
+margin-bottom: 0;
+}
+.slide-container{
+max-width: 100%;
+width: 100%;
+padding: 0 0;
+}
+.slide-content{
+margin: 45px 40px;
+overflow: hidden;
+border-radius: 25px;
+}
+.card{
+border-radius: 25px;
+padding: 30px;
+background-color: var(--secondary-color);
+border-radius: 50px;
+}
+
+.card:hover {
+  background-color: var(--primary-color);
+  transition: ease-in-out .5s;
+}
+.shoes {
+  border: 5px solid var(--additional-color);
+  border-radius: 50px;
+}
+
+.card-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: auto;
+padding: 30px 10px;
+border: 1px solid var(--font-color-2);
+width: 100%;
+border-radius: 49px;
+}
+
+.image-content{
+position: relative;
+row-gap: 5px;
+padding: 25px 0;
+}
+.card-image{
+position: relative;
+height: 350px;
+width: 100%;
+padding: 3px;
+margin-bottom: 30px;
+}
+
+.card-image .card-img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+padding-bottom: 20px;
+}
+.shoe-name{
+font-size: 40px;
+font-weight: 800;
+color: var(--font-color);
+margin-bottom: 8px;
+text-transform: uppercase;
+}
+.shoe-description{
+font-size: 16px;
+color: var(--font-color-2);
+text-align: center;
+margin-bottom: 5px;
+}
+
+.price {
+font-weight: 800;
+font-size: 22px;
+color: var(--font-color);
+margin-bottom: 20px;
+}
+
+.button-shoes {
+  margin-bottom: -53px;
+}
+
+.button {
+  padding: 15px 25px;
+  background-color: var(--additional-color);
+  border: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  transition: ease-in-out 0.5s;
+  background-color: var(--tertiary-color);
+  color: var(--additional-color);
+}
+/* .button{
+border: none;
+font-size: 16px;
+color: #FFF;
+padding: 8px 16px;
+background-color: #4070F4;
+border-radius: 6px;
+margin: 14px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.button:hover{
+background: #265DF2;
+} */
+
+.swiper-navBtn{
+transition: color 0.3s ease;
+color: var(--tertiary-color);
+}
+.swiper-navBtn:hover{
+background-color: #363434;
+transition: ease-in-out 0.4s;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+font-size: 35px;
+}
+.swiper-button-next{
+right: 0;
+background-color: var(--tertiary-color);
+padding: 40px;
+border-radius: 100px;
+margin: auto;
+}
+.swiper-button-prev{
+left: 0;
+background-color: var(--tertiary-color);
+padding: 40px;
+border-radius: 100px;
+margin: auto;
+}
+
+/*Banner CSS starts here*/
+
+.banner-con {
+  font-family: var(--regular);
+  height: 100vh;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding);
+ 
+}
+
+.banner-con img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+/*Categories Start here*/
+
+.categories-con {
+  padding: var(--padding);
+  font-family: var(--regular);
+}
+.container {
+  margin-top: 30px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.filterDiv {
+  float: left;
+  background-color: var(--tertiary-color);
+  color: #ffffff;
+  width: auto;
+  line-height: 100px;
+  text-align: center;
+  display: none;
+  border-radius: 8px;
+  overflow: hidden;
+  /* Hidden by default */
+}
+
+.bg-design {
+  height: 330px;
+  width: 85%;
+  margin-left: auto;
+  border-radius: 200px;
+  background-color: var(--secondary-color);
+  margin-top: -30px;
+  margin-right: -100px;
+  
+}
+
+.filterDiv img {
+  height: 300px;
+  width: 350px;
+  padding: 10px;
+  margin-top: -160px;
+  z-index: 1;
+}
+
+.girls{
+  background-color: var(--primary-color);
+  /* border: 5px solid var(--primary-color); */
+
+}
+
+.girls .bg-design {
+  background-color: var(--secondary-color);
+}
+
+.kids {
+  background-color: var(--additional-color);
+  border: 5px solid var(--primary-color); 
+
+}
+
+.shoe-name {
+  color: var(--additional-color);
+  margin-top: -50px;
+ 
+}
+
+.girls .shoe-name {
+  color: var(--additional-color);
+}
+
+.kids .shoe-name {
+  color: var(--font-color);
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+
+
+/* Style the buttons */
+.filterDiv button {
+  border: none;
+  outline: none;
+  padding: 15px 55px;
+  background-color: transparent;
+  border: 3px solid var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+  margin-top: -100px;
+  font-size: 16px;
+  border-radius: 18px;
+  width: auto;
+  font-weight: 500;
+   text-transform: uppercase;
+}
+
+.girls button {
+  border: 3px solid var(--additional-color);
+  color: var(--additional-color);
+}
+
+.kids button {
+  border: 3px solid var(--tertiary-color);
+  color: var(--tertiary-color);
+}
+.filterDiv button:hover {
+  background-color: var(--additional-color);
+  color: var(--tertiary-color);
+  transition: ease 0.7s;
+}
+
+.kids button:hover {
+  background-color: var(--tertiary-color);
+  color: var(--additional-color);
+  transition: ease 0.7s;
+}
+
+.categories-con .active{
+  text-transform: uppercase;
+  background-color: var(--tertiary-color);
+  color: var(--additional-color);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.categories-con .active:hover {
+  background-color:#383535;
+  transition: ease 0.7s;
+}
+
+.categories-con .btn{
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: 3px solid var(--primary-color);
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.categories-con .btn:hover{
+  background-color: var(--tertiary-color);
+  transition: ease 0.7s;
+}
+
+
+/*Store Location CSS*/
+
+.our-store-con {
+  width: 100%;
+  padding: var(--padding);
+  font-family: var(--regular);
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.out-store-content-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.store-details-con {
+  display: flex;
+  flex-direction: row;
+}
+
+.store-img {
+  width: 60%;
+  background-image: url("../images/shoe-store.jpg");
+  background-size: cover;
+  height: 700px;
+  object-fit: none;
+  object-position: center center;
+  
+}
+
+.store-map {
+  width: 40%;
+}
+.store-map iframe{
+  height: 100%;
+  width: 100%;
+}
+
+/*Email Us*/
+
+/*email us CSS*/
+.email-us-form-con {
+  padding: var(--padding);
+  font-family: var(--regular);
+  display: flex;
+  color: var(--font-color);
+  justify-content: space-between;
+}
+
+.email-us-details-con {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.email-us-details-con .email-us-tagline {
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.email-us-details-con .email-us-content {
+  font-size: 22px;
+}
+
+.email-us-form {
+  width: 55%;
+
+}
+
+.email-us-form form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  font-family: var(--heading);
+}
+
+.email-us-form form #fname {
+  width: auto;
+  height: 70px;
+  padding: 0 20px;
+  border: 4px solid var(--secondary-color);
+  border-radius: 18px;
+  background-color: transparent;
+  color: var(--font-color);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.email-us-form form #email {
+  width: auto;
+  height: 70px;
+  padding: 0 20px;
+  border: 4px solid var(--secondary-color);
+  border-radius: 18px;
+  background-color: transparent;
+  color: var(--font-color);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.email-us-form form #message {
+  width: auto;
+  height: 300px;
+  padding: 30px 20px;
+  border: 4px solid var(--secondary-color);
+  border-radius: 18px;
+  background-color: transparent;
+  color: var(--font-color);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+#submit {
+  background-color: var(--primary-color);
+  color: var(--additional-color);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--heading);
+  padding: 25px 0;
+  cursor: pointer;
+
+}
+
+#submit:hover {
+  background-color: var(--secondary-color);
+  transition: ease-in .5s;
+}
+
+/*Footer*/
+footer {
+  background-color: var(--primary-color);
+  display: flex;
+  padding: 15px 60px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--regular);
+}
+.icon .fa-brands,.fa-solid{
+  color: var(--additional-color);
+  font-size: 25px;
+}
+
+.icon .fa-brands:hover {
+  color: var(--font-color);
+  transition: ease 0.5s;
+}
+
+.icon .fa-solid:hover {
+  color: var(--font-color);
+  transition: ease 0.5s;
+}
+.icon a{
+  margin-bottom: 20px;
+  display: flex;
+  column-gap: 20px;
+  text-decoration: none;
+  align-items: center;
+  font-size: 16px;
+  color: var(--additional-color);
+}
+
+.footer-logo {
+  width: 350px;
+  height: 190px;
+}
+
+.footer-logo img {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
