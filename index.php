@@ -66,6 +66,7 @@
         </div>
     </section>
     <!-- Themes selection starts here -->
+    
     <section class="slideshow-container" id="slideshow-container">
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
