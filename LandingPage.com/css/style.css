@@ -1,0 +1,1223 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #A3D178;
+    --secondary-color: #ffffff;
+    --tertiary-color: #000000;
+    --font-style: 'Outfit', sans-serif;
+    --padding: 60px;
+}
+
+
+html,body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/*Go Up Button CSS*/
+
+#topBtn{
+ position: fixed;
+  bottom: 40px;
+  right: 28px;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  background: var(--tertiary-color);
+  color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  display: none;
+  border-radius: 100px;
+  z-index: 999;
+  
+}
+.welcome-con {
+    background-image: url("../images/background.png");
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+header {
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-style);
+    --font-color: #404040;
+}
+
+header .logo {
+    width: 200px;
+}
+
+header .nav-bar ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+header .nav-bar ul a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header .nav-bar ul a:hover {
+    color: var(--secondary-color);
+    transition: ease .3s;
+}
+
+header .nav-bar ul .nav-button  a{ 
+  background-color: var(--tertiary-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: var(--primary-color);
+}
+header .nav-bar ul .nav-button  a:hover {
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+  border: none;transition: 0.7s;
+}
+
+/*MainPage CSS*/
+
+.welcome-main {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-style);
+    text-align: center;
+    align-items: center;
+}
+.welcome-desc-con {
+    width: 625px;
+}
+
+.heading {
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.parag {
+    font-size: 24px;
+    font-weight: 600;  margin-bottom: 40px;
+}
+
+
+.welcome-main .img-container {
+    width: 730px;
+    height: 615px;
+}
+
+.welcome-main .img-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-button  a{ 
+  background-color: var(--tertiary-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: var(--primary-color);
+}
+.nav-button  a:hover {
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+  border: none;transition: 0.7s;
+}
+
+/*About Us CSS*/
+.about-us-con {
+    padding: 60px;
+    font-family: var(--font-style);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.about-video-con {
+    width: 1000px;
+    height: 600px;
+}
+
+.about-desc-con {
+    width: 70%;
+}
+
+.all-heading {
+    font-size: 35px;
+}
+
+.all-parag-subheading {
+    font-size: 29px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.all-parag {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/*Themes Selection CSS*/
+.slideshow-container {
+    max-width: 100vw;
+    position: relative;
+    margin: auto;
+    font-family: var(--font-style);
+    padding: 50px 0;
+  }
+
+  .theme-con{
+    display: flex;
+    align-items: center;
+  }
+
+  .img-con {
+    width: 65%;
+    height: 700px;
+  }
+
+  .img-con img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .theme-desc-con {
+    width: 25%;
+  }
+
+  .theme-desc-con .theme-subheading{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .theme-desc-con .theme-heading {
+    font-size: 64px;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+
+  .theme-desc-con .theme-content {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+
+  .btn-theme {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 15px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: ease 0.5s;
+  }
+  
+
+  .mySlides {
+   display: none;
+  }
+
+  .btn-theme:hover {
+    background-color: #85be4e;
+    transition: ease 0.5s;
+  }
+
+  
+
+  .prev, .next {
+    background-color: #85be4e;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+  .prev:hover, .next:hover {
+    background-color: var(--primary-color);
+  }
+  
+
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 75px;
+    margin: 0 2px;
+    background-color: var(--primary-color);
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /*Website Benefits CSS*/
+
+ .website-benefits {
+    padding: var(--padding);
+    font-family: var(--font-style);
+ }
+
+
+ .website-benefits .all-heading {
+    text-align: center;
+    margin-bottom: 10px;
+
+ }
+
+ .website-benefits .all-parag-subheading {
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+.benefits-con {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 60px;
+    row-gap: 60px;
+}
+
+ .benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    row-gap: 15px;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .benefit-img-con {
+    background-color: #A3D178;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+ }
+
+  .benefit:hover {
+    background-color: rgba(163, 209, 120, .3);
+    color: #85be4e;
+    transition: ease-in-out 0.4s;
+ } 
+ .benefit img {
+    width: 80px;
+    height: 75px;
+    
+ }
+
+/*Email Us CSS*/
+
+.email-us-con {
+    padding: var(--padding);
+    display: flex;
+    font-family: var(--font-style);
+}
+
+.email-us-con img {
+    width: 775px;
+    height: 510px;
+}
+
+.email-us-des-con {
+    width: 50%;
+}
+
+.email-us-des-con h1 {
+    font-size: 48px;
+    font-weight:600;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.email-us-des-con p {
+    text-align: left;
+}
+
+.form-con {
+    width: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.form-con h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.form-con p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-con form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 100%;
+}
+
+form #fname {
+    height: 80px;
+    padding: 20px;
+    border: 3px solid rgb(230, 221, 209);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    font-family: var(--font-style);
+}
+
+form #email {
+    height: 80px;
+    padding: 20px;
+    border: 3px solid rgb(230, 221, 209);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    font-family: var(--font-style);
+}
+
+form #message {
+    max-height: 300px;
+    padding: 20px;
+    border: 3px solid rgb(230, 221, 209);
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #262626;
+    font-family: var(--font-style);
+}
+
+form #submit {
+    height: 60px;
+    border: 3px solid rgb(230, 221, 209);
+    font-family: var(--font-style);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+/*OUR TEAM CSS*/
+.teams {
+    padding: var(--padding);
+    font-family: var(--font-style);
+}
+
+.team-container{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   column-gap: 50px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 50px;
+}
+
+.team:hover {
+    background-color: rgba(163, 209, 120, .3);
+    color: #85be4e;
+    transition: ease-in-out 0.4s;
+    border-radius: 12px;  
+}
+.teams h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team img{
+    width: 290px;
+    height: 405px;
+    margin-bottom: 20px;
+}
+
+.team .name {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+/**SLIDER CSS*/
+.slideshow-container2 {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    background-image: url("../images/services-background.jpg");
+    background-size: cover;
+    font-family: var(--font-style);
+  }
+  
+  /* Hide the images by default */
+  .mySlides2 {
+    display: none;
+  }
+
+  .service-desc {
+    width: 49%;
+  }
+  .service-img-con {
+    width: 51%;
+    height:800px;
+  }
+  .service-img-con img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .service {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 64px;
+  }
+
+  .service-desc h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #262626;
+    margin-bottom: 10px;
+  }
+
+  .service-desc h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  
+  .service-desc p{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+    width: 60%;
+  }
+  
+  /* Next & previous buttons */
+  .prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev2:hover, .next2:hover {
+    background-color: #85be4e;
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dots {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-right: 300px;
+    padding-bottom: 50px;
+  }
+  .dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 10px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+  }
+  
+  .active, .dot2:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /*PRICING/PLANS CSS*/ 
+  .our-plans-pricing-con {
+    padding: var(--padding);
+    font-family: var(--font-style);
+    background-image: linear-gradient(90deg,#c9d893,#aed481,#76c85a);
+  }
+
+  .our-plans-pricing-con .all-heading {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .plans {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .plan {
+    background-color:#262626;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    padding: 60px 70px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .plan:hover {
+    background-color: var(--tertiary-color);
+    transition: ease-in .3s;
+  }
+
+  .plan h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+
+  .plan img {
+    height: 160px;
+    width: 160px;
+  }
+
+  .plan .include {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondary-color);
+  }
+
+  .plan .price-con {
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    padding: 6px 21px;
+    border-radius: 21px;
+    margin-top: auto;
+    cursor: pointer;
+  }
+
+  .plan .price-con:hover {
+    background-color: var(--primary-color);
+    transition: ease-in-out .4s;
+    color: var(--secondary-color);
+  }
+
+
+/*FOOTER CSS*/
+.footer {
+    padding: var(--padding);
+    font-family: var(--font-style);
+    background-color: #262626;
+}
+.contact-us-con {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.contact-us-con .contact-us {
+    display: flex;
+    align-items: center;
+}
+.contact-us-con .contact-us h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.contact-us-con .contact-us p {
+    color: var(--primary-color);
+}
+
+
+
+.footer .all-heading {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
+
+.footer .img-con {
+    background-color: var(--primary-color);
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+.footer img {
+    width: 34px;
+    height: 32px;
+}
+
+
+/*TABLET SIZE*/
+
+@media only screen and (max-width:900px) {
+    .logo-con {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    header {
+        padding: 25px 50px;
+    }
+    .welcome-con {
+        height: 650px;
+    }
+
+    .hamburger {
+        cursor: pointer;
+        display: block;
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background-color: var(--secondary-color);
+        margin-bottom: 5px;
+    }
+    .nav-bar.active {
+        height: 300px;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 130px;
+        right: 0;
+        left: 0;
+        background-color: var(--secondary-color);
+        width: 100vw;
+        transition: ease-in .7s;
+        overflow: hidden;
+        z-index: 999;
+    }
+
+    header .nav-bar ul {
+        display: block;
+        margin: 40px auto 0px auto;
+        text-align: center;
+        opacity: 0;
+        transition: ease .3s;
+    }
+
+    header .nav-bar ul a:hover {
+        color: var(--primary-color);
+    }
+
+    header .nav-bar ul li {
+        margin-bottom: 20px;
+    }
+
+    .welcome-main {
+        flex-direction: column;
+        padding: 50px;
+    }
+    .welcome-con {
+        height: 100%;
+    }
+
+    .heading {
+        font-size: 35px;
+    }
+
+    .parag {
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+
+    .welcome-desc-con {
+      height: auto;
+      margin-bottom: 40px;
+    }
+
+    .welcome-main .img-container {
+        width: 100%;
+        height: 480px;
+    }
+
+    .about-us-con {
+        padding: 50px;
+        row-gap: 20px;
+    }
+
+    .about-video-con {
+        width: 100%;
+        height: 500px;
+    }
+
+    .about-desc-con {
+        width: 100%;
+    }
+
+    .theme-con {
+        flex-direction: column;
+        padding: 50px;
+        text-align: justify;
+
+    }
+
+    .img-con {
+        height: 450px;
+        width: 100%;
+    }
+
+    .theme-desc-con {
+        width: 100%;
+    }
+
+    .dot {
+        width: 75px;
+    }
+    
+    .theme-desc-con {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .theme-desc-con .theme-subheading {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .theme-desc-con .theme-heading {
+        text-align: center;
+    }
+
+    .btn-theme {
+        width: 100%;
+    }
+
+    .website-benefits {
+        padding: 50px;
+    }
+    
+    .benefits-con {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+        text-align: center;
+    }
+
+    .benefit {
+        padding: 25px;
+    }
+
+    .email-us-con {
+        
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    .email-us-des-con h1 {
+        text-align: center;
+    }
+
+    .email-us-des-con p {
+        text-align: center;
+    }
+
+    .email-us-des-con {
+        width: 100%;
+    }
+
+    .email-us-con img{
+        width: 100%;
+        height: 400px;
+    }
+
+    .form-con {
+        width: 100%;
+    }
+    .teams {
+        padding: 50px;
+    }
+    .team-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 25px;
+     }
+
+     .team {
+        padding: 25px;
+    }
+
+    .slideshow-container2 {
+        padding: 50px 0px;
+    }
+    
+    .service {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .service-img-con {
+        width: 100%;
+        height:600px;
+      }
+
+      .service-desc {
+        width: 100%;
+        text-align: center;
+      }
+      .service-desc h2 {
+        font-size: 30px;
+        color: var(--primary-color);
+      }
+    
+      .service-desc h1 {
+        font-size: 35px;
+        margin-bottom: 25px;
+        color: var(--tertiary-color);
+
+      }  
+      .service-desc p{
+        font-size: 22px;
+        font-weight: 400;
+        color: #000000;
+        width: 100%;
+      }
+
+      .dots {
+        width: 100%;
+        display: flex;
+        padding: 0;
+        justify-content: center;
+      }
+
+      .plans {
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       column-gap: 10px;
+
+    
+      }
+    
+      .plan {
+        padding: 30px 10px;
+        margin-bottom: 30px;
+
+      }
+
+      .our-plans-pricing-con {
+        padding: 50px;
+      }
+
+    
+      .plan h3 {
+        font-size: 25px;
+      }
+    
+      .plan img {
+        height: 115px;
+        width: 110px;
+      }
+    
+      .plan .include {
+        font-size: 16px;
+        font-weight: 400;
+        color: var(--secondary-color);
+      }
+
+      .footer {
+        padding: 50px;
+    }
+    .contact-us-con {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+        width: 95%;
+        margin: auto;
+        row-gap: 30px;
+        padding: 0px 50px;
+    }
+        
+}
+
+@media only screen and (max-width:600px){
+    header {
+        padding: 15px 15px;
+    }
+    
+    .welcome-main {
+        padding: 50px 15px;
+    }
+    
+    .welcome-desc-con {
+        width: 90%;
+    }
+    .welcome-main .img-container {
+        height: 100%;
+    }
+
+ 
+
+    .about-us-con {
+        padding: 50px 15px;
+    }
+
+    .about-video-con {
+        height: 350px;
+    }
+
+    .all-parag-subheading {
+        font-size: 20px;
+    }
+    .all-parag {
+        font-size: 16px;
+    }
+
+    .theme-con {
+        flex-direction: column;
+        padding: 50px 15px;
+        text-align: justify;
+    }
+
+    .img-con {
+        height: 320px;
+        width: 100%;
+    }
+
+    .theme-desc-con {
+        width: 100%;
+    }
+
+    .prev, .next {
+       opacity: .4;
+    }
+
+    .dot {
+        width: 45px;
+    }
+
+    .theme-desc-con .theme-subheading {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .theme-desc-con .theme-heading {
+        text-align: center;
+    }
+
+    .website-benefits {
+        padding: 50px 15px;
+    }
+    
+    .benefits-con {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+        text-align: center;
+    }
+
+    .benefit {
+        padding: 15px;
+    }
+
+    .email-us-con  {
+        padding: 50px 15px;
+    }
+
+    .form-con {
+        padding: 15px;
+    }
+
+    .teams {
+        padding: 50px 15px;
+    }
+    .team-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 25px;
+     }
+
+     .team {
+        padding: 25px;
+    }
+
+    .service {
+        padding: 50px 15px;
+    }
+
+    .service-img-con {
+        width: 100%;
+        height:350px;
+      }
+
+      .prev2, .next2 {
+        opacity: .4;
+     }
+
+     .dot2 {
+        margin: 5px;
+      }
+      .our-plans-pricing-con {
+        padding: 50px 15px;
+      }
+      .plans {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+       }
+     
+       .plan {
+         padding: 30px 10px;
+         margin-bottom: 30px;
+ 
+       }
+
+       .footer {
+        padding: 50px 15px;
+    }
+    .contact-us-con {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .footer .all-heading {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 800;
+        color: var(--secondary-color);
+    }
+
+    #topBtn{
+      position: fixed;
+      bottom: 100px;
+      right: 10px;
+      opacity: .9;
+    }
+    
+ 
+}
