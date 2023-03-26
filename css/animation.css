@@ -135,6 +135,6 @@
 	animation: float-tech 8s ease-in-out infinite;
 }
 
-#particles {
-	animation: moving 6s ease-in-out infinite;
-}
+/* #particles {
+	animation: float-tech 6s ease-in-out infinite;
+} */
