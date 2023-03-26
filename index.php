@@ -483,6 +483,10 @@
                     <p class="include">Email Feature</p>
                 </div>
                 <div class="price-con">
+                    <p><span>498 PHP/mo</span> 50% OFF</p>
+                    
+                </div>
+                <div class="price-con price-con-bottom">
                     <p>249 PHP/mo</p>
                 </div>
             </div>
@@ -530,6 +534,9 @@
                     <p class="include">Email Feature</p>
                 </div>
                 <div class="price-con">
+                    <p><span>698 PHP/mo</span> 50% OFF</p>
+                </div>
+                <div class="price-con price-con-bottom">
                     <p>349 PHP/mo</p>
                 </div>
             </div>
@@ -577,6 +584,9 @@
                     <p class="include">Email Feature</p>
                 </div>
                 <div class="price-con">
+                    <p><span>898 PHP/mo</span> 50% OFF</p>   
+                </div>
+                <div class="price-con price-con-bottom">
                     <p>449 PHP/mo</p>
                 </div>
             </div>

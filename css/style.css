@@ -1016,11 +1016,21 @@ form #submit {
     cursor: pointer;
 }
 
-.plan .price-con:hover {
+.plan .price-con span {
+    text-decoration: line-through;
+}
+
+.price-con-bottom {
+    background-color: #262626 !important;
+    color: white !important;
+    font-size: 30px !important;
+}
+
+/* .plan .price-con:hover {
     background-color: var(--primary-color);
     transition: ease-in-out .4s;
     color: var(--secondary-color);
-}
+} */
 
 
 /*FOOTER CSS*/
